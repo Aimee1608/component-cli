@@ -1,0 +1,19 @@
+{
+	"name": "<%=name%>",
+	"version": "1.0.0",
+	"description": "<%=description%>",
+    "main": "src/install.js",
+    "module": "es/install.js",
+	"scripts": {
+        "build": "component-cli build --type only",
+		"prepublishOnly": "component-cli build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+    "repository": {
+      "type": "git",
+      "url": "<%=gitUrl%>"
+    },
+	"author": "<%=author%>",
+	"license": "ISC",
+	"componentType": "<%=componentType%>"
+}

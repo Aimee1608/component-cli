@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+dist
+demo/node_modules
+npm-debug.log*
+
+# Lock files shouldn't be committed for libraries https://stackoverflow.com/a/40206145
+yarn.lock
+package-lock.json
